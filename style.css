@@ -19,6 +19,9 @@ html { box-sizing: border-box; }
 	h3 - 18px  (název produktu v Dnešní nabídce)
 	Nadpisy mají řádkování jen 1.25
 
+	font-family: 'Lora', serif;
+	font-family: 'Playfair Display', serif;
+
 	Barvy:
 	#f195b2		růžová - tlačítka a zvýraznění
 	#d2567d		tmavá růžová - hover/aktivní tlačítka
