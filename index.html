@@ -13,40 +13,50 @@
 <body>
 	<!-- Hlavička -->
 	<header>
-		<img src="images/logo.svg" alt="logo Skvělá cukrárna">
-		<ul>
-			<li><a href="#">Nabídka dortů</a></li>
-			<li><a href="#">Blog</a></li>
-			<li><a href="#">O nás</a></li>
-			<li><a href="#">Kontakt</a></li>
-			<li><a href="#">Online objednávka</a></li>
-		</ul>
+		<div class="grid">
+			<img id="logo" src="images/logo.svg" alt="logo Skvělá cukrárna">
+			<ul class="menu">
+				<li><a href="#">Nabídka dortů</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">O nás</a></li>
+				<li><a href="#">Kontakt</a></li>
+				<li><a href="#">Online objednávka</a></li>
+			</ul>
+		</div>
 	</header>
 	<main>
 		<!-- Hero sekce s obrázkem a hlavním nadpisem -->
-		<section>
-			<h1>Sladké potěšení z&nbsp;kvalitních surovin</h1>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-			</p>
+		<section class="hero">
+			<div class="grid">
+				<div class="content">
+					<h1>Sladké potěšení z&nbsp;kvalitních surovin</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+					</p>
+				</div>
+			</div>
 		</section>
 
 		<!-- sekce Vítejte v naší cukrárně -->
-		<section>
-			<!-- levý sloupec -->
-			<h2>Vítejte v naší cukrárně</h2>
-
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus officia minima reiciendis beatae, quo consequatur blanditiis molestiae laborum, at porro ipsum soluta temporibus.
-			</p>
-
-			<a href="#">Naše výrobky</a>
-
-			<!-- pravý sloupec -->
-			<img src="images/cukrarka.jpg" alt="cukrářka">
+		<section class="welcome-kitchen">
+			<div class="grid">
+				<div class="kitchen">
+					<div class="left">
+						<h2>Vítejte v naší cukrárně</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus officia minima reiciendis beatae, quo consequatur blanditiis molestiae laborum, at porro ipsum soluta temporibus.
+						</p>
+						<a class="button" href="#">Naše výrobky</a>
+					</div>
+					<!-- pravý sloupec -->
+					<div class="right">
+						<img src="images/cukrarka.jpg" alt="cukrářka">
+					</div>
+				</div>
+			</div>
 			
 		</section>
 
