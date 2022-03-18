@@ -37,6 +37,7 @@ body {
 	font-size: 18px;
 	line-height: 1.5;
 	font-family: 'Lora', serif;
+	color: #242424;
 }
 main{
 	margin: 0;
@@ -55,9 +56,14 @@ h1{
 }
 h2{
 	font-size: 36px;
+	color: #3e606b	;
 }
 h3{
 	font-size: 18px;
+	color: #3e606b	;
+}
+img{
+	border-radius: 5px;
 }
 #logo{
 	width: 170px;
@@ -96,6 +102,7 @@ a:hover{
 .hero{
 	background-image: url(./images/cupcake.jpg);
 	background-repeat: no-repeat;
+	background-position: center ;
 	background-size: 100%;
 	color: white;
 }
@@ -111,16 +118,21 @@ a:hover{
 }
 .kitchen{
 	display: flex;
+	justify-items:center;
+	padding: 0;
 }
 .kitchen .right{
-	margin: 30px;
-	flex-shrink: 1;
-	
+	margin-left: 30px;
+}
+.kitchen .right img{
+	width:535px;
 }
 .kitchen .left{
 	flex-basis: 50%;
+	flex-basis: 535px;
 
 }
+
 .button{
 	padding: 15px 40px;
 	border-radius: 30px;
@@ -128,9 +140,58 @@ a:hover{
 	background-color: #f195b2;
 	color: white;
 	display: inline-block;
+	margin: 10px 5px;
 }
 .button:hover{
 	background-color: 	#d2567d	;
+}
+.offer-section{
+	background-color: #f0f0f0	;
+}
+.offer-portfolio{
+	display: flex;
+	flex-wrap: wrap;
+
+	justify-content: space-between;
+	max-width: 1100px;
+	
+}
+.product{
+	border-radius: 5px;
+	background-color: white;
+	margin-right: 30px;
+	text-align: center;
+	width: 252.5px;
+	font-size: 16px;
+	
+}
+.product.last{
+	margin-right: 0px;
+}
+.product img{
+	width: 100%;
+}
+.product p{
+	margin: 20px 20px 40px 20px;
+	display: block;
+}
+footer{
+	text-align: center;
+	background-color: #303339;
+	color: white;
+	padding: 30px;
+}
+.attitude-box{
+	display: flex;
+}
+.attitude-box .right{
+	margin-left: 30px;
+}
+.attitude-box .left{
+	flex-basis: 535px;
+}
+.attitude-box .left img{
+	width:535px;
 }
 
 
